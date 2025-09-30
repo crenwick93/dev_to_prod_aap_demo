@@ -1,0 +1,4 @@
+[rhel_aws]
+web_Server0 ansible_host=ec2-16-16-254-221.eu-north-1.compute.amazonaws.com
+
+

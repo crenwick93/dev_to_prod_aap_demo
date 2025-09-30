@@ -1,0 +1,13 @@
+ansible-navigator:
+  execution-environment:
+    enabled: true
+    container-engine: auto
+    image: registry.redhat.io/ansible-automation-platform-25/ee-supported-rhel9:latest
+    pull:
+      policy: missing
+    volume-mounts:
+      - src: /Users/crenwick/.ssh
+        dest: /home/runner/.ssh
+        options: ro
+  playbook-artifact:
+    enable: false

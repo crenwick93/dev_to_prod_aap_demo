@@ -1,0 +1,42 @@
+.ansible
+collections/*
+!collections/requirements.yml
+files/*.bak
+*.retry
+
+# Ansible / ansible-navigator artifacts
+ansible-navigator.log
+artifacts/
+*.log
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.python-version
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+.vault_pass.txt
+.vault-password
