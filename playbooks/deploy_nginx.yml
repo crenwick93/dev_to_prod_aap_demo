@@ -4,7 +4,7 @@
   become: true
   gather_facts: false
   vars:
-    demo_message: "Hello from Ansible NGINX demo V2"
+    demo_message: "Hello from Ansible NGINX demo"
   tasks:
     - name: Install nginx
       ansible.builtin.dnf:
